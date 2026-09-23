@@ -1,0 +1,36 @@
+name: medtrack
+description: MedTrack — Smart Medical Dispenser companion app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Local persistence
+  shared_preferences: ^2.3.2
+
+  # Local notifications
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+
+  # Unique IDs for dose events
+  uuid: ^4.4.2
+
+  # Material icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
